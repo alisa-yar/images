@@ -32,7 +32,7 @@ html {
   margin-top: 30px;
   width: 60%;
   height: auto;
-  float: left;
+  float: center;
   padding: 25px;
 }
 
@@ -41,8 +41,7 @@ html {
   width: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  float: center;
 }
 
 .image {
@@ -52,16 +51,16 @@ html {
   float: center;
 }  
 
-@media (max-width: 812px) {
+@media (max-width: 645px) {
  .gallery {
    width:100%;
    height:auto;
    position: relative;
-   float:left;
+   float: center;
    padding:25px;
  }
   
- @media (max-width: 812px) {
+ @media (max-width: 645px) {
  .image {
    width:calc(100% - 50px);
    margin:25px 0px;
