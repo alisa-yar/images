@@ -12,10 +12,13 @@
   box-sizing: border-box;
 }
 
-body {
-  position: relative;
+html {
   font-family: var(--font);
   background-color: var(--bg);
+}
+
+body {
+  position: relative;
 }
 
 section.gallery {
