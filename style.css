@@ -60,7 +60,7 @@ body {
 .icon {
   position: relative;
   width: 50px;
-  display: block;
+  display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
