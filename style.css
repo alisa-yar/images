@@ -3,7 +3,7 @@
 :root {
   --font: 'poppins', sans-serif;
   --bg: #202020; 
-  --fontColor: #FFFFF;
+  --fontColor: #FFF;
 }
 
 * {
@@ -16,10 +16,6 @@ html {
   font-family: var(--font);
   background-color: var(--bg);
   color: var(--fontColor);
-}
-
-body {
-  position: relative;
 }
 
 .heading {
@@ -40,11 +36,19 @@ body {
   padding: 25px;
 }
 
+.icon {
+  position: relative;
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .image {
   position: relative;
   width:90%;
   margin:25px auto;
-  float: left;
+  float: center;
 }  
 
 @media (max-width: 812px) {
@@ -61,7 +65,7 @@ body {
    width:calc(100% - 50px);
    margin:25px 0px;
    position:relative;
-   float: left;
+   float: center;
  }
 
 
