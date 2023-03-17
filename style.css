@@ -2,7 +2,7 @@
 
 :root {
   --font: 'poppins', sans-serif;
-  --bg: #1A1A1A; 
+  --bg: #202020; 
   --fontColor: #FFFFF;
 }
 
@@ -15,6 +15,7 @@
 body {
   position: relative;
   font-family: var(--font);
+  background-color: var(--bg);
 }
 
 section.gallery {
@@ -36,7 +37,7 @@ h2.title:after {
   position: absolute;
   width: 100px;
   height: 3px;
-  background-color: var(--bg);
+  background-color: var(--fontColor);
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
