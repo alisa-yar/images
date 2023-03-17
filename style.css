@@ -15,6 +15,7 @@
 html {
   font-family: var(--font);
   background-color: var(--bg);
+  color: var(--fontColor);
 }
 
 body {
