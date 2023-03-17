@@ -3,7 +3,7 @@
 :root {
   --font: 'poppins', sans-serif;
   --bg: #202020; 
-  --fontColor: #FFF;
+  --textColor: #FFF;
 }
 
 * {
@@ -13,9 +13,12 @@
 }
 
 html {
+  margin: auto;
+  height: auto;
+  
   font-family: var(--font);
   background-color: var(--bg);
-  color: var(--fontColor);
+  color: var(--textColor);
   scroll-behavior: smooth;
   position: center;
   text-align: center;
@@ -23,7 +26,9 @@ html {
 }
 
 body { 
-  color: var(--fontColor);
+  margin: auto;
+  padding: auto;
+  height: fit-content;
   display: block;
   position: center;
   max-width: 500px;
@@ -32,8 +37,9 @@ body {
 }
 
 .heading {
-  font-size: 45px;
+  color: var(--textColor);
   font-weight: 600;
+  font-size: 45px;
   text-align: center;
   margin: 10px auto;
 }
@@ -42,23 +48,31 @@ body {
   max-width: 675px;
   width: 100%;
   display: block;
-  margin: 27px auto;
+  position: center;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: transparent;
   box-sizing: border-box;
   text-align: center;
+  overflow: hidden;
 }
 
 .icon {
   position: relative;
   width: 50px;
+  display: block;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  padding: 10px;
 }
 
 .image {
   position: relative;
   width: 90%;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  padding: 10px;
 }  
