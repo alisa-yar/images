@@ -16,11 +16,19 @@ html {
   font-family: var(--font);
   background-color: var(--bg);
   color: var(--fontColor);
+  scroll-behavior: smooth;
+  position: center;
+  text-align: center;
+  box-sizing: content-box;
 }
 
 body { 
-  box-sizing: border-box;
   color: var(--fontColor);
+  display: block;
+  position: center;
+  max-width: 500px;
+  box-sizing: content-box;
+  width: 100%;
 }
 
 .heading {
