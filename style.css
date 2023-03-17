@@ -58,7 +58,7 @@ body {
 }
 
 .icon {
-  position: relative;
+  position: center;
   width: 50px;
   display: inline-block;
   margin-left: 10px;
@@ -68,7 +68,7 @@ body {
 }
 
 .image {
-  position: relative;
+  position: center;
   width: 90%;
   display: block;
   margin-left: 10px;
