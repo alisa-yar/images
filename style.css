@@ -68,8 +68,7 @@ body {
 }
 
 .image {
-  position: center;
-  width: 90%;
+  position: relative;
   display: block;
   margin-left: 10px;
   margin-right: 10px;
