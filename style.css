@@ -3,6 +3,7 @@
 :root {
   --font: 'poppins', sans-serif;
   --bg: #1A1A1A; 
+  --fontColor: #FFFFF;
 }
 
 * {
@@ -27,6 +28,7 @@ h2.title {
   text-align: center;
   padding-bottom: 45px;
   position: relative;
+  color: var(--fontColor);
 }
 
 h2.title:after {
