@@ -39,19 +39,20 @@ body {
 }
 
 .gallery {
-  position: relative;
-  width: 60%;
-  height: auto;
+  max-width: 675px;
+  width: 100%;
+  display: block;
+  margin: 27px auto;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .icon {
   position: relative;
-  width:50px;
-  float: center;
+  width: 50px;
 }
 
 .image {
   position: relative;
-  width:90%;
-  float: center;
+  width: 90%;
 }  
