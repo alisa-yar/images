@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap');
+
+:root {
+  --font: 'poppins', sans-serif;
+  --bg: #111111; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: var(--font);
+}
+
+section.gallery {
+  position: relative;
+  padding: 45px 0;
+}
+
+h2.title {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 45px;
+  position: relative;
+}
+
+h2.title:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: var(--bg);
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gallery-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-size: 0;
+  margin-top: 30px;
+}
+
+.gallery-item {
+  display: block;
+  flex: 25%;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-item:hover .gallery-item-hover {
+  opacity: 1;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 991px) {
+  .gallery-item {
+    flex: 33.3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    flex: 50%;
+  }
+}
+
+@media (max-width: 530px) {
+  .gallery-item {
+    flex: 100%;
+  }
+}
