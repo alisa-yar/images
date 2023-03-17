@@ -19,8 +19,8 @@ html {
 }
 
 .heading {
-  font-size: 44px;
-  font-weight: bold;
+  font-size: 45px;
+  font-weight: 600;
   text-align: center;
   padding-bottom: 45px;
   position: relative;
@@ -29,18 +29,14 @@ html {
 
 .gallery {
   position: relative;
-  margin-top: 30px;
   width: 60%;
   height: auto;
-  float: center;
-  padding: 25px;
 }
 
 .icon {
   position: relative;
-  width: 50px;
-  display: flex;
-  flex-direction: row;
+  width:50px;
+  margin:25px auto;
   float: center;
 }
 
@@ -50,26 +46,3 @@ html {
   margin:25px auto;
   float: center;
 }  
-
-@media (max-width: 645px) {
- .gallery {
-   width:100%;
-   height:auto;
-   position: relative;
-   float: center;
-   padding:25px;
- }
-  
- @media (max-width: 645px) {
- .image {
-   width:calc(100% - 50px);
-   margin:25px 0px;
-   position:relative;
-   float: center;
- }
-
-
-
-
-
-
